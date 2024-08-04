@@ -63,4 +63,3 @@ Contributions are welcome! If you would like to collaborate, please follow the g
 ## Contacto
 
 For questions or comments, you can contact us at [martinalexanderflorestorres@gmail.com](mailto:martinalexanderflorestorres@gmail.com).
-# ECOMMERCE-IA
