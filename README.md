@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ECOMMERCE AI
 
-## Getting Started
+This project provides an interface to generate product descriptions using AI. It supports multiple languages and allows customization of tone and special instructions.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Generate AI Descriptions:** Automatically generate product descriptions using AI.
+- **Language Support:** Supports multiple languages for description generation.
+- **Tone Customization:** Choose from various tones like Expert, Bold, Playful, Sophisticated, Persuasive, and Encouraging.
+- **Special Instructions:** Add specific instructions to customize the generated descriptions.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/MartinAlexanderFloresTorres/ECOMMERCE-IA
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd ecommerce-ai
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the application:
+    ```bash
+    npm run dev
+    ```
+5. Open the URL provided in the terminal:
+    [http://localhost:3000](http://localhost:3000)
+
+## Requirements
+
+1. Obtain an API key from https://platform.openai.com/api-keys
+
+## Components
+
+### IAGenerate Component
+
+The `IAGenerate` component provides the interface for generating product descriptions using AI.
+
+#### Props
+
+- `onConserve: (text: string) => void`: Callback function to handle the conserved text.
+
+#### Usage
+
+```tsx
+<IAGenerate onConserve={(text) => console.log('Conserved Text:', text)} />;
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribución
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are welcome! If you would like to collaborate, please follow the guidelines for contributing.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Contacto
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For questions or comments, you can contact us at [martinalexanderflorestorres@gmail.com](mailto:martinalexanderflorestorres@gmail.com).
+# ECOMMERCE-IA
