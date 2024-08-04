@@ -1,4 +1,9 @@
 ## ECOMMERCE AI
+# PREVIEW: https://ecommerce-ia.app/
+![image](https://github.com/user-attachments/assets/21464dcd-09ad-4329-9cbb-5597ce00ee1c)
+![11](https://github.com/user-attachments/assets/6134dc7e-82e1-4594-9061-69f0cbac836a)
+![22](https://github.com/user-attachments/assets/915c0cbc-8852-436a-9104-bcc8610ee26c)
+
 
 This project provides an interface to generate product descriptions using AI. It supports multiple languages and allows customization of tone and special instructions.
 
