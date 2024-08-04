@@ -18,7 +18,6 @@ export default function RootLayout({
         <title>ECOMMERCE IA</title>
         <meta name="description" content="Generate product descriptions, question answers, and more with AI." />
         <link rel="icon" type="image/svg+xml" href="/logo.ico" />
-        <link rel="preload" href="/banner.jpg" as="image" />
       </head>
       <body className={`${inter.className} bg-[#0E1117] text-neutral-200`}>
         <AIProvider>{children}</AIProvider>
